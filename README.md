@@ -1,6 +1,6 @@
 # Projeto de Human Resources Analytics
 
-**Descrição Inicial**
+## Descrição Inicial ##
 
 Neste projeto se procurou cobrir todas as etapas de um projeto real de Data Science, desde o entendimento do problema, ideação da solução, análise, etapas de machine learning e um deploy. Logo, com essa proposta, pude resolver o problema de como utilizar dados para responder a questões importantes, no que tange a área de **Recursos Humanos (Human Resources)**, para permitir que uma empresa tenha conhecimento sobre:
 
@@ -16,17 +16,17 @@ E por fim disponibilizar recursos para que a empresa consiga realizar a prediç�
 
 Para resolver esse problema foi construído uma solução completa para armazenamento, gestão e automatização de fluxos de dados utilizando tecnologias como **Apache Airflow, Docker e Minio**, além de explorar uma suíte poderosa de tecnologias para trabalhar com Análise de Dados e Machine Learning que são: **Pandas, Scikit-learn, Pycaret, Streamlit**.
 
-A escolha do Apache Airflow foi devido a necessidade do projeto de lidar com fontes de dados diferentes, com formatos diferentes, no qual uma orquestração, uma automatização, dos processos de extração e pequenas transformações nos arquivos se mostrava interessante.
+A escolha do **Apache Airflow** foi devido a necessidade do projeto de lidar com fontes de dados diferentes, com formatos diferentes, no qual uma orquestração, uma automatização, dos processos de extração e pequenas transformações nos arquivos se mostrava interessante.
 
-Em relação ao Docker e Minio, ambos serviram como ferramentas para a configuração ideal para auxiliar o manejo dos arquivos e sua orquestração. Um dando possibilidade do Minio e Airflow funcionarem de forma adequada, graças ao seu poder de compartimentalização, enquanto o outro foi responsável pela criação de um Data Lake, onde os arquivos ficarem dispostos e foram acionados nos momentos necessários.
+Em relação ao **Docker e Minio**, ambos serviram como ferramentas para a configuração ideal para auxiliar o manejo dos arquivos e sua orquestração. Um dando possibilidade do **Minio*** e **Airflow** funcionarem de forma adequada, graças ao seu poder de compartimentalização, enquanto o outro foi responsável pela criação de um Data Lake, onde os arquivos ficarem dispostos e foram acionados nos momentos necessários.
 
-Para as etapas de análise e Machine Learning, utilizou-se extensamente as possibilidades das bibliotecas Pandas e Scikit-learn, passando pelo entendimento dos dados, através dos dataframes, transformações nesses dados e por fim a separação e tratamento deles para que os algoritmos de machine learning fossem utilizados. Houve, ainda, o uso do PyCaret, ferramenta interessante no que tange o AutoML (processos de machine learning mais automatizados), no qual pude comparar diversos algoritmos de machine learning de maneira bastante ágil e prática. Finalizando o projeto com a implementação do Streamlit, criando um mini app para que se pudesse interagir com novos dados e ver o modelo escolhido de machine learning funcionando.
+Para as etapas de análise e Machine Learning, utilizou-se extensamente as possibilidades das bibliotecas **Pandas e Scikit-learn**, passando pelo entendimento dos dados, através dos dataframes, transformações nesses dados e por fim a separação e tratamento deles para que os algoritmos de machine learning fossem utilizados. Houve, ainda, o uso do **PyCaret**, ferramenta interessante no que tange o AutoML (processos de machine learning mais automatizados), no qual pude comparar diversos algoritmos de machine learning de maneira bastante ágil e prática. Finalizando o projeto com a implementação do **Streamlit**, criando um mini app para que se pudesse interagir com novos dados e ver o modelo escolhido de machine learning funcionando.
 
 **Etapas do Projeto**
 
-A príncipio os dados se encontravam em arquivos em formato xlsx, json e dados no Sistemas de Gerenciamento de Banco de Dados MySQL.
+A príncipio, os dados se encontravam em arquivos em formato xlsx, json e dados no Sistemas de Gerenciamento de Banco de Dados MySQL.
 
-Foram criadas Dags para serem empregadas pelo Airflow, nas quais elas liam os arquivos no Minio, depois faziam suas transformações e retornavam os novos arquivos ao Minio. Por fim, com um arquivo transformado e único, esse foi aproveitado na etapa de Análise Exploratória.
+Foram criadas Dags para serem empregadas pelo **Airflow**, nas quais elas liam os arquivos no **Minio**, depois faziam suas transformações e retornavam os novos arquivos ao **Minio**. Por fim, com um arquivo transformado e único, esse foi aproveitado na etapa de Análise Exploratória.
 
 Na etapa de Análise Exploratória de Dados foram descobertos os vários insights importantes abaixo:
 
