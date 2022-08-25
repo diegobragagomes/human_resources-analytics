@@ -1,4 +1,4 @@
-"# Projeto de Human Resources Analytics" 
+# Projeto de Human Resources Analytics
 
 Neste projeto cobrindo todas as etapas de um projeto real de Data Science pude resolver o problema de como utilizar dados para responder a questões importantes para permitir que uma empresa tenha conhecimento sobre:
 
