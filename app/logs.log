@@ -1,0 +1,672 @@
+2022-08-23 18:17:08,840:INFO:Initializing load_model()
+2022-08-23 18:17:08,858:INFO:load_model(model_name=model.pkl, platform=None, authentication=None, verbose=True)
+2022-08-23 18:18:13,029:INFO:Initializing load_model()
+2022-08-23 18:18:13,029:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:19:34,757:INFO:Initializing load_model()
+2022-08-23 18:19:34,757:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:21:19,246:INFO:Initializing load_model()
+2022-08-23 18:21:19,247:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:22:05,974:INFO:Initializing load_model()
+2022-08-23 18:22:05,976:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:22:06,216:INFO:Initializing predict_model()
+2022-08-23 18:22:06,217:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 18:22:06,220:INFO:Checking exceptions
+2022-08-23 18:22:06,220:INFO:Preloading libraries
+2022-08-23 18:27:46,003:INFO:Initializing load_model()
+2022-08-23 18:27:46,006:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:27:49,048:INFO:Initializing load_model()
+2022-08-23 18:27:49,048:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:27:49,155:INFO:Initializing predict_model()
+2022-08-23 18:27:49,155:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 18:27:49,161:INFO:Checking exceptions
+2022-08-23 18:27:49,163:INFO:Preloading libraries
+2022-08-23 18:28:46,679:INFO:Initializing load_model()
+2022-08-23 18:28:46,682:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:28:51,489:INFO:Initializing load_model()
+2022-08-23 18:28:51,489:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:28:55,150:INFO:Initializing load_model()
+2022-08-23 18:28:55,151:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:28:55,287:INFO:Initializing predict_model()
+2022-08-23 18:28:55,287:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 18:28:55,295:INFO:Checking exceptions
+2022-08-23 18:28:55,295:INFO:Preloading libraries
+2022-08-23 18:29:01,748:INFO:Initializing load_model()
+2022-08-23 18:29:01,748:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:29:02,025:INFO:Initializing load_model()
+2022-08-23 18:29:02,025:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:29:02,133:INFO:Initializing predict_model()
+2022-08-23 18:29:02,134:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 18:29:02,137:INFO:Checking exceptions
+2022-08-23 18:29:02,138:INFO:Preloading libraries
+2022-08-23 18:29:07,748:INFO:Initializing load_model()
+2022-08-23 18:29:07,749:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:29:08,070:INFO:Initializing load_model()
+2022-08-23 18:29:08,070:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:29:08,170:INFO:Initializing predict_model()
+2022-08-23 18:29:08,172:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 18:29:08,185:INFO:Checking exceptions
+2022-08-23 18:29:08,186:INFO:Preloading libraries
+2022-08-23 18:29:15,254:INFO:Initializing load_model()
+2022-08-23 18:29:15,254:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:29:15,582:INFO:Initializing load_model()
+2022-08-23 18:29:15,583:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:29:15,689:INFO:Initializing predict_model()
+2022-08-23 18:29:15,689:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 18:29:15,692:INFO:Checking exceptions
+2022-08-23 18:29:15,694:INFO:Preloading libraries
+2022-08-23 18:39:46,442:INFO:Initializing load_model()
+2022-08-23 18:39:46,443:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:39:51,218:INFO:Initializing load_model()
+2022-08-23 18:39:51,220:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:39:51,382:INFO:Initializing predict_model()
+2022-08-23 18:39:51,382:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 18:39:51,385:INFO:Checking exceptions
+2022-08-23 18:39:51,386:INFO:Preloading libraries
+2022-08-23 18:40:55,400:INFO:Initializing load_model()
+2022-08-23 18:40:55,403:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:40:58,473:INFO:Initializing load_model()
+2022-08-23 18:40:58,474:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:40:58,646:INFO:Initializing predict_model()
+2022-08-23 18:40:58,647:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 18:40:58,650:INFO:Checking exceptions
+2022-08-23 18:40:58,650:INFO:Preloading libraries
+2022-08-23 18:41:54,475:INFO:Initializing load_model()
+2022-08-23 18:41:54,475:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:42:00,696:INFO:Initializing load_model()
+2022-08-23 18:42:00,697:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:42:00,860:INFO:Initializing predict_model()
+2022-08-23 18:42:00,861:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 18:42:00,864:INFO:Checking exceptions
+2022-08-23 18:42:00,865:INFO:Preloading libraries
+2022-08-23 18:45:20,319:INFO:Initializing load_model()
+2022-08-23 18:45:20,319:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:48:47,862:INFO:Initializing load_model()
+2022-08-23 18:48:47,863:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:50:42,043:INFO:Initializing load_model()
+2022-08-23 18:50:42,045:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:51:08,742:INFO:Initializing load_model()
+2022-08-23 18:51:08,744:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:51:43,145:INFO:Initializing load_model()
+2022-08-23 18:51:43,145:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:51:47,966:INFO:Initializing load_model()
+2022-08-23 18:51:47,967:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:52:22,495:INFO:Initializing load_model()
+2022-08-23 18:52:22,495:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:53:55,687:INFO:Initializing load_model()
+2022-08-23 18:53:55,687:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:55:06,488:INFO:Initializing load_model()
+2022-08-23 18:55:06,489:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:55:32,240:INFO:Initializing load_model()
+2022-08-23 18:55:32,240:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:55:39,471:INFO:Initializing load_model()
+2022-08-23 18:55:39,478:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:55:39,607:INFO:Initializing predict_model()
+2022-08-23 18:55:39,607:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 18:55:39,612:INFO:Checking exceptions
+2022-08-23 18:55:39,613:INFO:Preloading libraries
+2022-08-23 18:57:46,618:INFO:Initializing load_model()
+2022-08-23 18:57:46,622:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:57:48,819:INFO:Initializing load_model()
+2022-08-23 18:57:48,819:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:57:48,963:INFO:Initializing predict_model()
+2022-08-23 18:57:48,964:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 18:57:48,970:INFO:Checking exceptions
+2022-08-23 18:57:48,971:INFO:Preloading libraries
+2022-08-23 18:58:10,934:INFO:Initializing load_model()
+2022-08-23 18:58:10,936:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:58:13,594:INFO:Initializing load_model()
+2022-08-23 18:58:13,596:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:58:13,770:INFO:Initializing predict_model()
+2022-08-23 18:58:13,772:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 18:58:13,783:INFO:Checking exceptions
+2022-08-23 18:58:13,788:INFO:Preloading libraries
+2022-08-23 18:58:34,745:INFO:Initializing load_model()
+2022-08-23 18:58:34,746:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:58:36,865:INFO:Initializing load_model()
+2022-08-23 18:58:36,865:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:58:37,033:INFO:Initializing predict_model()
+2022-08-23 18:58:37,035:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 18:58:37,037:INFO:Checking exceptions
+2022-08-23 18:58:37,038:INFO:Preloading libraries
+2022-08-23 18:59:17,298:INFO:Initializing load_model()
+2022-08-23 18:59:17,298:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:59:19,050:INFO:Initializing load_model()
+2022-08-23 18:59:19,050:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 18:59:19,196:INFO:Initializing predict_model()
+2022-08-23 18:59:19,200:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 18:59:19,206:INFO:Checking exceptions
+2022-08-23 18:59:19,208:INFO:Preloading libraries
+2022-08-23 19:00:16,509:INFO:Initializing load_model()
+2022-08-23 19:00:16,510:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:00:18,932:INFO:Initializing load_model()
+2022-08-23 19:00:18,933:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:00:19,071:INFO:Initializing predict_model()
+2022-08-23 19:00:19,072:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 19:00:19,074:INFO:Checking exceptions
+2022-08-23 19:00:19,074:INFO:Preloading libraries
+2022-08-23 19:06:24,022:INFO:Initializing load_model()
+2022-08-23 19:06:24,023:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:24,339:INFO:Initializing load_model()
+2022-08-23 19:06:24,339:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:24,610:INFO:Initializing load_model()
+2022-08-23 19:06:24,610:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:24,910:INFO:Initializing load_model()
+2022-08-23 19:06:24,911:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:25,204:INFO:Initializing load_model()
+2022-08-23 19:06:25,204:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:25,482:INFO:Initializing load_model()
+2022-08-23 19:06:25,482:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:25,798:INFO:Initializing load_model()
+2022-08-23 19:06:25,799:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:26,076:INFO:Initializing load_model()
+2022-08-23 19:06:26,076:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:26,395:INFO:Initializing load_model()
+2022-08-23 19:06:26,395:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:26,707:INFO:Initializing load_model()
+2022-08-23 19:06:26,707:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:26,991:INFO:Initializing load_model()
+2022-08-23 19:06:26,991:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:27,355:INFO:Initializing load_model()
+2022-08-23 19:06:27,370:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:29,158:INFO:Initializing load_model()
+2022-08-23 19:06:29,160:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:29,469:INFO:Initializing load_model()
+2022-08-23 19:06:29,469:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:29,725:INFO:Initializing load_model()
+2022-08-23 19:06:29,725:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:30,008:INFO:Initializing load_model()
+2022-08-23 19:06:30,009:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:30,281:INFO:Initializing load_model()
+2022-08-23 19:06:30,282:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:30,554:INFO:Initializing load_model()
+2022-08-23 19:06:30,555:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:30,833:INFO:Initializing load_model()
+2022-08-23 19:06:30,833:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:31,110:INFO:Initializing load_model()
+2022-08-23 19:06:31,110:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:34,099:INFO:Initializing load_model()
+2022-08-23 19:06:34,100:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:34,405:INFO:Initializing load_model()
+2022-08-23 19:06:34,405:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:34,659:INFO:Initializing load_model()
+2022-08-23 19:06:34,660:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:35,240:INFO:Initializing load_model()
+2022-08-23 19:06:35,241:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:35,509:INFO:Initializing load_model()
+2022-08-23 19:06:35,510:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:35,798:INFO:Initializing load_model()
+2022-08-23 19:06:35,798:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:41,177:INFO:Initializing load_model()
+2022-08-23 19:06:41,179:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:44,589:INFO:Initializing load_model()
+2022-08-23 19:06:44,590:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:47,347:INFO:Initializing load_model()
+2022-08-23 19:06:47,348:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:48,123:INFO:Initializing load_model()
+2022-08-23 19:06:48,123:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:48,249:INFO:Initializing predict_model()
+2022-08-23 19:06:48,251:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 19:06:48,253:INFO:Checking exceptions
+2022-08-23 19:06:48,253:INFO:Preloading libraries
+2022-08-23 19:06:52,871:INFO:Initializing load_model()
+2022-08-23 19:06:52,877:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:53,265:INFO:Initializing load_model()
+2022-08-23 19:06:53,266:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:53,415:INFO:Initializing predict_model()
+2022-08-23 19:06:53,419:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 19:06:53,434:INFO:Checking exceptions
+2022-08-23 19:06:53,435:INFO:Preloading libraries
+2022-08-23 19:06:58,533:INFO:Initializing load_model()
+2022-08-23 19:06:58,540:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:59,699:INFO:Initializing load_model()
+2022-08-23 19:06:59,700:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:06:59,843:INFO:Initializing predict_model()
+2022-08-23 19:06:59,846:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 19:06:59,850:INFO:Checking exceptions
+2022-08-23 19:06:59,851:INFO:Preloading libraries
+2022-08-23 19:07:07,001:INFO:Initializing load_model()
+2022-08-23 19:07:07,001:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:07:07,484:INFO:Initializing load_model()
+2022-08-23 19:07:07,485:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:07:07,608:INFO:Initializing predict_model()
+2022-08-23 19:07:07,608:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 19:07:07,617:INFO:Checking exceptions
+2022-08-23 19:07:07,618:INFO:Preloading libraries
+2022-08-23 19:07:15,221:INFO:Initializing load_model()
+2022-08-23 19:07:15,221:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:07:17,439:INFO:Initializing load_model()
+2022-08-23 19:07:17,440:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:07:17,734:INFO:Initializing load_model()
+2022-08-23 19:07:17,735:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:07:17,847:INFO:Initializing predict_model()
+2022-08-23 19:07:17,848:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 19:07:17,850:INFO:Checking exceptions
+2022-08-23 19:07:17,851:INFO:Preloading libraries
+2022-08-23 19:07:22,141:INFO:Initializing load_model()
+2022-08-23 19:07:22,145:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:07:22,456:INFO:Initializing load_model()
+2022-08-23 19:07:22,456:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2022-08-23 19:07:22,566:INFO:Initializing predict_model()
+2022-08-23 19:07:22,567:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      numerical_features=['yearsAtCompany',
+                                                          'projectCount'],
+                                      target='turnover')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_...
+                ('P_transform', 'passthrough'), ('binn', 'passthrough'),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='turnover')),
+                ('fix_perfect', Remove_100(target='turnover')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LGBMClassifier(random_state=1989)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-08-23 19:07:22,570:INFO:Checking exceptions
+2022-08-23 19:07:22,570:INFO:Preloading libraries
