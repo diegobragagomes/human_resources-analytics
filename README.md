@@ -18,7 +18,7 @@ Para resolver esse problema foi construído uma solução completa para armazena
 
 A escolha do **Apache Airflow** foi devido a necessidade do projeto de lidar com fontes de dados diferentes, com formatos diferentes, no qual uma orquestração, uma automatização, dos processos de extração e pequenas transformações nos arquivos se mostrava interessante.
 
-Em relação ao **Docker e Minio**, ambos serviram como ferramentas para a configuração ideal para auxiliar o manejo dos arquivos e sua orquestração. Um dando possibilidade do **Minio*** e **Airflow** funcionarem de forma adequada, graças ao seu poder de compartimentalização, enquanto o outro foi responsável pela criação de um Data Lake, onde os arquivos ficarem dispostos e foram acionados nos momentos necessários.
+Em relação ao **Docker e Minio**, ambos serviram como ferramentas para a configuração ideal para auxiliar o manejo dos arquivos e sua orquestração. Um dando possibilidade do **Minio*** e **Airflow** funcionarem de forma adequada, graças ao seu poder de compartimentalização, enquanto o outro foi responsável pela criação de um Data Lake, onde os arquivos ficaram dispostos e foram acionados nos momentos necessários.
 
 Para as etapas de análise e Machine Learning, utilizou-se extensamente as possibilidades das bibliotecas **Pandas e Scikit-learn**, passando pelo entendimento dos dados, através dos dataframes, transformações nesses dados e por fim a separação e tratamento deles para que os algoritmos de machine learning fossem utilizados. Houve, ainda, o uso do **PyCaret**, ferramenta interessante no que tange o AutoML (processos de machine learning mais automatizados), no qual pude comparar diversos algoritmos de machine learning de maneira bastante ágil e prática. Finalizando o projeto com a implementação do **Streamlit**, criando um mini app para que se pudesse interagir com novos dados e ver o modelo escolhido de machine learning funcionando.
 
@@ -58,6 +58,8 @@ Corresponde aos empregados que foram mal avaliados e se sentiram mal no trabalho
 Representa os empregados ideais, que gostam do seu trabalho e são bem avaliados por seu desempenho. Este grupo pode indicar os empregados que deixaram a empresa porque encontraram outra oportunidade de trabalho.
 
 Para a estimativa com o objetivo de predizer se um empregado vai deixar a empresa foi implementado um modelo utilizando o algoritmo **Light Gradient Boosting Machine** que atingiu uma performance de **AUC em 0.99**. Escolhi o AUC, por se portar, em geral, mais robusto do que a Acurácia.
+
+## Conclusão
 
 Através desse projeto foi possível praticar e implementar conceitos importantes da Ciência e Engenharia de Dados e propor uma solução para um problema latente e recorrente de qualquer empresa que é a retenção de talentos através da Análise de Dados de Recursos Humanos.
 
