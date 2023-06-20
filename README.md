@@ -9,7 +9,7 @@ O objetivo é destrinchar as características de funcionários e as relações d
 O projeto conta com três principais etapas:
 <li> Arquitetura dos dados </li>
 <li> Entendimento e Processamento dos Dados </li>
-<li> Predição dos Dados via Algoritmos de Machine Learning</li><br>
+<li> Análise de Dados</li><br>
 
 Principais Ferramentas:
 <li><b>Airflow</b></li>
@@ -29,7 +29,7 @@ Nessa etapa, o objetivo foi desenhar a arquitetura, isto é, o caminho pelo qual
 
 <li>A partir desse dado em .parquet, as análises exploratórias serão realizadas e também serão realizadas as predições através da utilização e algoritmos de machine learning. </li><br>
 
-<li>Ao final da análise, realizou-se uma clusterização, resultando em um arquivo .joblib. Já ao final da predição por machine learning, os arquivos de database.csv e o arquivo do modol.pkl são gerados e colocados juntos ao arquivo .joblib na camada Curated.</li><br>
+<li>Ao final da análise, realizou-se uma clusterização, resultando em um arquivo .joblib, ao final da análise exploratória. Já ao final da predição por machine learning, os arquivos de database.csv e o arquivo do modol.pkl são gerados e colocados juntos ao arquivo .joblib na camada Curated.</li><br>
 
 Essa é uma arquitetura simples e totalmente on premise, que utiliza os conceitos de Data Lake e automação das etapas com o Minio e o Airflow, respectivamente. O propósito maior dessa arquitetura é criar um pipeline de entrada de dados coeso para um melhor processamento e análise. Mesmo simples, ela se mostra eficaz ao trabalhar com diferentes tipos de dados e ter todo o processamento atribuído em linguagem python, desde as dags no Airflow até a análise utilizando bibliotecas como Pandas, Matplotlibe e Seaborn e finalizando com as etapas de Machine Learning.
 
@@ -165,3 +165,5 @@ A partir desse cruzamento, pode-se observar 3 diferentes grupos segregados:
 <li>Colaboradores insatisfeitos com a empresa têm uma maior tendência para evadir.</li><br>
 
 Esses fatores podem auxiliar na tomada de de decisões estratégicas pela equipe de RH em conjunto com outras áreas como Financeiro, para entender melhor o perfil das pessoas que tendem a deixar a empresa, se o problema (não único, mas claramente sempre expoente) do salário pode ser contornado de outras maneiras, como benefícios. Ademais, a compreensão dos dados também ajuda a entender a desmotivação de alguns colaboradores, visto que mesmoc com salários melhores e anos de companhia, eles podem vir a se sentir desmotivados ou sem novos desafios. Logo casos opostos com soluções distintas que podem ser melhor entendidos através de uma análise dos dados.
+
+A arquitetura já está preparada para a inclusão de uma etapa de machine learning, buscando-se prever futuras possibilidades de saídas de profissionais para enriquecer ainda mais as estratégias para redução do número de turnover.
