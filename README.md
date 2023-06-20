@@ -2,7 +2,38 @@
 
 ## Descrição Inicial ##
 
-Neste projeto se procurou cobrir todas as etapas de um projeto real de Data Science, desde o entendimento do problema, ideação da solução, análise, etapas de machine learning e um deploy. Logo, com essa proposta, pude resolver o problema de como utilizar dados para responder a questões importantes, no que tange a área de **Recursos Humanos (Human Resources)**, para permitir que uma empresa tenha conhecimento sobre:
+O projeto possui como principal interesse, <b>o maior entendimento dos atributos que podem levar ao churn</b>.
+
+O objetivo é destrinchar as características de funcionários e as relações deles com a empresa, para buscar quantificar a possibilidade de um possível churn no decorrer do tempo.
+
+O projeto conta com três principais etapas:
+<li> Arquitetura dos dados </li>
+<li> Entendimento e Processamento dos Dados </li>
+<li> Predição dos Dados via Algoritmos de Machine Learning</li><br>
+
+Principais Ferramentas:
+<li><b>Airflow</b></li>
+<li> <b>Minio</b></li>
+<li><b>SQL</b></li>
+<li><b>Python</b></li><br>
+
+## Arquitetura de Dados
+
+Nessa etapa, o objetivo foi desenhar a arquitetura, isto é, o caminho pelo qual os dados partiriam desde o computador até a visualizaçaõ de dados e predição deles. Abaixo, pode-se observar o desenho dessa arquitetura:
+
+<img src = "./images/HR_project.drawio (1).png" alt = "Arquitetura de Dados">
+
+<li> Tudo se inicia com o download dos dados do case <a href="https://www.kaggle.com/datasets/yingwurenjian/chicago-divvy-bicycle-sharing-data">Chicago Divvy</a> no Kaggle. </li><br>
+
+<li>Após isso, os dados são inseridos em um bucket, chamado de Raw, no <b>S3</b> dentro da AWS. Esses dados chegarão brutos, em .csv, e serão processados pelo <b>EMR</b> (Elastic Map Reduce) e serão salvos em .parquet em outro bucket no <b>S3</b>, chamado de Curated.</li><br>
+
+<li>A partir desse dado em .parquet, haverá um acionamento de um crawler no <b>Glue</b>, responsável por entender a estrutura e o tipo dos dados, para catalogar como esses dados estão dispostos no arquivo e qual é o formato de cada uma das colunas. </li><br>
+
+<li>Seguindo o caminho dos dados até a visualização, faz-se necessária a utilização do <b>Redshift Spectrum</b>, que permite a leitura de arquivos no <b>S3</b> pelo <b>Redshift</b> ao se criarem schemas e tabelas externas, com o auxílio do catálogo prévio do <b>Glue</b>. A partir desse processo, os dados que foram catalogados no <b>Glue</b> e estão presentes no <b>S3</b>, podem ser lidos e disponibilizados no <b>RedShift</b>.</li><br>
+
+<li>Por último, a ferramenta de visualização escolhida foi o <b>Metabase</b>, pelo fato de ser open source e trabalhar com o <b>SQL</b>, que é uma ferramenta que também buscava desenvolver e expor. Para que o <b>Metabase</b> pudesse funcionar, foi utilizado o <b>Docker</b> e a partir da imagem metabase/metabase rodando na porta 3000 do localhost, houve a possibilidade de utilização dele. A conexão no <b>Metabase</b> é feita de maneira bastante simples, conectando ao database do <b>Redshift</b> e fazendo queries a partir dele.</li><br>
+
+Essa é uma arquitetura simples, mas cumpre o objetivo de se trabalhar quase inteiramente na nuvem, passando pelos processos de storage, processamento e disponibilização como um DW, pelo <b>Redshift</b>, até a conexão com a ferramenta de visualização, esta que poderia estar sendo utilizada num EC2, como um app no Elastic BeanStalk, numa app no Heruko, ou simplesmente na própria nuvem do <b>Metabase</b>, como seria o caso de uma versão online paga para o <b>Power BI</b>, <b>Tableau</b> e demais.
 
 - Quais são os fatores que influenciam para um colaborador deixar a
 empresa?
