@@ -2,7 +2,7 @@
 
 ## Descrição Inicial ##
 
-O projeto possui como principal interesse, <b>o maior entendimento dos atributos que podem levar ao churn</b>.
+O projeto possui como principal interesse <b>o maior entendimento dos atributos que podem levar ao churn</b>.
 
 O objetivo é destrinchar as características de funcionários e as relações deles com a empresa, para buscar quantificar a possibilidade de um possível churn no decorrer do tempo.
 
@@ -13,7 +13,7 @@ O projeto conta com três principais etapas:
 
 Principais Ferramentas:
 <li><b>Airflow</b></li>
-<li> <b>Minio</b></li>
+<li><b>Minio</b></li>
 <li><b>SQL</b></li>
 <li><b>Python</b></li><br>
 
@@ -98,7 +98,7 @@ Os arquivos unificados e já alterados foram guardados em um arquivo .parquet, q
 
 Na etapa de Análise Exploratória de Dados foram descobertos os vários insights importantes abaixo, através de cruzamentos entre os dados utilizando as bibliotecas disponíveis no Python:<br>
 
-<b>1 - Matriz de Correlação (Heatmap):</b>
+<b>1 - Matriz de Correlação (Heatmap)</b>
 
 <br><img src = "./images/heatmap_analise.png" alt = "Matriz de Correlação"><br>
 
@@ -110,7 +110,7 @@ Na etapa de Análise Exploratória de Dados foram descobertos os vários insight
 
 <li>Podemos assumir que empregados que mais deixam a empresa estão menos satisfeitos.<br><br><br>
 
-<b>2 - Distribuição dos Atributos:</b>
+<b>2 - Distribuição dos Atributos</b>
 
 <br><img src = "./images/distribuicao_atributos.png" alt = "Distribuição dos Atributos"><br>
 
@@ -120,7 +120,7 @@ Examinando a distribuição de alguns atributos do conjunto de dados:
 <li>Evaluation - Temos uma distribuição bimodal de empregados com avaliações baixas, menor que de 60 e altas, maior que 80.</li><br>
 <li>AverageMonthlyHours - A concentração da quantidade de horas trabalhadas nos últimos 3 meses está ao redor da média em 275 horas.</li><br><br><br>
 
-<b>3 - Salário x Turnover:</b>
+<b>3 - Salário x Turnover</b>
 
 <br><img src = "./images/turnover_salario.png" alt = "Salário x Turnover"><br>
 
@@ -130,17 +130,17 @@ Analisando-se a relação entre salário e turnover no conjunto de dados:
 <li>Quase nenhum empregado com alto salário deixou a empresa.</li><br><br><br>
 
 
-<b>4 - Departamento x Turnover:</b>
+<b>4 - Departamento x Turnover</b>
 
 <br><img src = "./images/turnover_departamentos1.png" alt = "Departamento x Turnover"><br>
-<br><img src = "./images/departamentos_salario.png" alt = "Departamento x Turnover"><br>
+<br><img src = "./images/departamentos_salario.png" alt = "Departamento x Salários"><br>
 
 Analisando-se mais informações sobre os departamentos da empresa:
 
 <li>Os departamentos de vendas, técnico e suporte são top 3 departamentos com maior índice de turnover.</li><br>
 <li>O departamento management tem o menor volume de turnover.</li><br><br><br>
 
-<b>5 - Quantidade de Projetos x Turnover:</b>
+<b>5 - Quantidade de Projetos x Turnover</b>
 
 <br><img src = "./images/turnover_numprojetos.png" alt = "Quantidade de Projetos x Turnover"><br>
 
@@ -151,7 +151,7 @@ Insights interessantes que se podem encontrar aqui:
 <li>Todos os empregados que estavam inseridos 7 projetos deixaram a empresa.</li><br>
 <li>Existe uma pequena tendência de crescimento no índice de turnover em relação à quantidade de projetos.</li><br><br><br>
 
-<b>6 - Avaliação x Turnover:</b>
+<b>6 - Avaliação x Turnove:</b>
 
 <br><img src = "./images/distribuicao_nota_avaliacao_turnover.png" alt = "Avaliação x Turnover"><br>
 
@@ -162,7 +162,7 @@ Insights interessantes que se podem encontrar aqui:
 <li>Colaboradores com alta performance tendem a deixar a empresa.</li><br>
 <li>O ponto ideal para os funcionários que permaneceram está dentro da avaliação de 60 à 80.</li><br><br><br>
 
-<b>7 - Satisfação x Turnover:</b>
+<b>7 - Satisfação x Turnover</b>
 
 <br><img src = "./images/distribuicao_satisfacao_turnover.png" alt = "Avaliação x Turnover"><br>
 
@@ -171,7 +171,7 @@ Analisando-se o conjunto desses dados, pode-se notar que:
 <li>Empregados com o nível de satisfação em 20 ou menos tendem a deixar a empresa.</li><br>
 <li>Empregados com o nível de satisfação em até 50 tem maior probabilidade de deixar a empresa também.</li><br><br><br>
 
-<b>8 - Avaliação x Quantidade de Projetos:</b>
+<b>8 - Avaliação x Quantidade de Projetos</b>
 
 <br><img src = "./images/numprojeto_avaliacao.png" alt = "Avaliação x Quantidade de Projetos"><br>
 
@@ -182,7 +182,7 @@ Analisando-se o conjunto desses dados, pode-se notar que:
 <li>Empregados que tinham dois projetos e uma péssima avaliação saíram.</li><br>
 <li>Empregados com mais de 3 projetos e avaliações altas deixaram a empresa.</li><br><br><br>
 
-<b>9 - Avaliação x Satisfação:</b>
+<b>9 - Avaliação x Satisfação</b>
 
 <br><img src = "./images/satisfacao_avaliacao.png" alt = "Avaliação x Satisfação"><br>
 
