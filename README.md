@@ -35,13 +35,64 @@ Essa é uma arquitetura simples e totalmente on premise, que utiliza os conceito
 
 ## Entendimento e Processamento dos Dados
 
-- Quais são os fatores que influenciam para um colaborador deixar a
-empresa?
+O case consiste em 6 arquivos com extensão .xlsx (Excel), 1 arquivo no formato .json e 1 arquivo advindo de um banco de dados MySQL:
 
-- Como reter pessoas?
+Os arquivos employee_date_hour_0, employee_date_hour_1, employee_date_hour_2, employee_date_hour_3, employee_date_hour_4 e employee_date_hour_5 tem como colunas:<br>
 
-- Como antecipar e saber se um determinado colaborador vai sair da
-empresa?
+<li>emp_id[string]: ID do empregado</li>
+<li>data[timestamp]: Data referente ao dia trabalhado</li>
+<li>hora[int]: quantidade de horas trabalhadas no determinado dia</li><br>
+
+O arquivo .json, employee_performance_evaluation:<br>
+
+<li>emp_id[string]: ID do empregado</li>
+<li>satisfaction_level[float]: Valor numérico referente ao nível de satisfação do empregado</li>
+<li>last_evaluation[float]:  Valor numérico referente a pontuação na avaliação do empregado</li><br>
+
+O banco de dados chamado de employees é dividido em 4 tabelas: <br>
+
+accident:<br>
+
+<li>emp_no[bigint]: ID do empregado</li>
+<li>Event Description[string]: Descrição do ocorrido no acidente</li>
+<li>Event Keywords[string]:  Palavras-chave para destacar o ocorrido no acidente</li>
+<li>Human Factor[string]:  Destaque dos possíveis fatores humanos que levaram ao acidente</li><br>
+
+employees:<br>
+
+<li>emp_no[bigint]: ID do empregado</li>
+<li>birth_date[datetime]: Data completa do nascimento</li>
+<li>first_name[string]:  Primeiro nome do funcionário</li>
+<li>last_name[string]:  Último nome do funcionário</li>
+<li>gender[string]:  Gênero do funcionário</li>
+<li>department[string]:  Departamento em que o funcionário está</li>
+<li>left[bigint]:  Valor binário (0 ou 1), indicando se o funcionário deixou a empresa</li>
+<li>hire_date[string]:  Data de contratação</li><br>
+
+projects:<br>
+
+<li>PROJECT_ID[bigint]: ID do projeto</li>
+<li>PROJECT NAME[string]: Nome do Projeto</li>
+<li>PROJECT SCOPE[string]:  Escopo do projeto</li>
+<li>TYPE[string]:  Tipo do projeto</li>
+<li>STATUS[string]:  Status atual do projeto</li>
+<li>% COMPLETE[bigint]:  Porcentagem de conclusão do projeto, dado seu escopo</li>
+<li>PROJECT BUDGET[string]:  Orçamento disponível para realização do projeto</li><br>
+
+projects_emp: <br>
+
+<li>EMP_ID[bigint]: ID do empregado</li>
+<li>PROJECT_ID[bigint]: ID do projeto</li><br>
+
+salaries: <br>
+
+<li>EMP_ID[bigint]: ID do empregado</li>
+<li>SALARY[string]: Valor do salário do empregado</li><br>
+
+Para utilização desses dados da melhor maneira, foram criadas dags, utilizando Python e Airflow, para através de joins, principalmente utilizando os ids (emp_id,EMP_ID, EMP_NO e PROJECT_ID). Para isso foram modificados alguns nomes de colunas, alguns tipos das colunas e por fim a realização da união das tabelas. 
+
+Os arquivos unificados e já alterados foram guardados em um arquivo .parquet, que para o ínicio da análise foi verificada a existência de dados nulos. Como existiam poucas linhas com dados nulos, essas foram retiradas do conjunto de dados, seguindo dessa forma para a análise.
+
 
 ## Análise dos Dados
 
